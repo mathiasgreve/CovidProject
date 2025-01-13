@@ -39,12 +39,6 @@ The repository includes the following SQL queries:
 4. Visualize:
 - Use the views created (DeathsByContinent, PercentPopulationVaccinated) as data sources for your preferred visualization tool.
 
-## Contributing
-- Contributions are welcome! If you have ideas for improving the analysis or extending the visualizations, feel free to open a pull request or submit an issue.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments
 Data Source: [Coronavirus (COVID-19) Deaths (Our World in Data)](https://ourworldindata.org/covid-deaths).
 Tools: PostgreSQL, pgAdmin.
