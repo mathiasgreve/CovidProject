@@ -30,13 +30,6 @@ The repository includes the following SQL queries:
 - Creates a view (PercentPopulationVaccinated) to store data for visualization.
 - Focuses on cumulative vaccination data grouped by country and date.
 
-## Features
-- Data Cleansing: Uses COALESCE to handle null values effectively.
-- Aggregations: Calculates sums, maximums, and percentages.
-- Window Functions: Leverages OVER for cumulative calculations.
-- Joins: Combines data from multiple tables (coviddeaths and covidvaccs).
-- Views: Prepares data for visualization by creating reusable views.
-
 ## How to Use
 1. Prerequisites:
 - A PostgreSQL database with the coviddeaths and covidvaccs tables populated.
