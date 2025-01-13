@@ -1,13 +1,10 @@
 # COVID-19 Data Analysis and Visualization
-
 This repository contains SQL scripts for analyzing and visualizing COVID-19 data. The scripts focus on various aspects of the pandemic, such as cases, deaths, vaccinations, and population impacts.
 
 ## Contents
 
 ## SQL Queries
-
 The repository includes the following SQL queries:
-
 1. Total Cases vs Total Deaths in Norway
 - Calculates the death percentage relative to total cases for Norway.
 - Handles null values using COALESCE to ensure robust calculations.
@@ -34,25 +31,13 @@ The repository includes the following SQL queries:
 - Focuses on cumulative vaccination data grouped by country and date.
 
 ## Features
-
 - Data Cleansing: Uses COALESCE to handle null values effectively.
 - Aggregations: Calculates sums, maximums, and percentages.
 - Window Functions: Leverages OVER for cumulative calculations.
 - Joins: Combines data from multiple tables (coviddeaths and covidvaccs).
 - Views: Prepares data for visualization by creating reusable views.
 
-## Future Enhancements
-
-The repository will be expanded to include:
-
-Visualizations using Python libraries like Matplotlib, Seaborn, or Plotly.
-
-Integration with tools like Tableau or Power BI for interactive dashboards.
-
-More detailed analysis, such as correlations between vaccination rates and GDP per capita.
-
 ## How to Use
-
 1. Prerequisites:
 - A PostgreSQL database with the coviddeaths and covidvaccs tables populated.
 - Data for COVID-19 cases, deaths, and vaccinations in CSV format.
@@ -67,11 +52,8 @@ More detailed analysis, such as correlations between vaccination rates and GDP p
 - Contributions are welcome! If you have ideas for improving the analysis or extending the visualizations, feel free to open a pull request or submit an issue.
 
 ## License
-
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-
-Data Source: Please specify the source of your COVID-19 data (e.g., Our World in Data).
-
-Tools: PostgreSQL, pgAdmin, and any future visualization tools.
+Data Source: [Coronavirus (COVID-19) Deaths (Our World in Data)](https://ourworldindata.org/covid-deaths).
+Tools: PostgreSQL, pgAdmin.
