@@ -1,7 +1,3 @@
--- SELECT location, date, total_cases, total_deaths
--- FROM coviddeaths
--- ORDER BY location, date;
-
 -- Looking at total cases vs total deaths in norway
 SELECT 
     location, 
@@ -46,7 +42,6 @@ SELECT SUM(new_cases) AS total_cases, SUM(new_deaths) as total_deaths,
 SUM(new_deaths)/SUM(new_cases)*100 AS death_percantage
 FROM coviddeaths
 WHERE continent IS NOT null
---GROUP BY date
 ORDER BY 1,2;
 
 -- LOOKING AT TOTAL POPULATION VS VACCINATION
@@ -83,4 +78,3 @@ CREATE VIEW PercentPopulationVaccinated as
 		ON deaths.location = vaccs.location
 		AND deaths.date = vaccs.date
 	WHERE deaths.continent IS NOT NULL;
-	--ORDER BY 2,3
