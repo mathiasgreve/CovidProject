@@ -1,8 +1,6 @@
 # COVID-19 Data Analysis and Visualization
 This repository contains SQL scripts for analyzing and visualizing COVID-19 data. The scripts focus on various aspects of the pandemic, such as cases, deaths, vaccinations, and population impacts.
 
-## Contents
-
 ## SQL Queries
 The repository includes the following SQL queries:
 1. Total Cases vs Total Deaths in Norway
